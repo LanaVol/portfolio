@@ -42,7 +42,10 @@ const about = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
+          <AnimatedText
+            text="Passion Fuels Purpose!"
+            className="mb-16 lg:!text-7xl"
+          />
 
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex-col items-start justify-start">
