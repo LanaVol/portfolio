@@ -35,11 +35,17 @@ export default function Home() {
                 text="Bringing Іdeas to Life Through Code and Design"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
+
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                Welcome to my portfolio! To be brief about me - I&#039;m
+                Svitlana, and I blend the roles of a Junior Frontend Developer
+                and a leading Architect in the field of construction.
+              </p>
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                Currently, I am looking for the position Junior/Trainee Frontend
+                developer because I want to be a part of the development world.
+                I invite you to explore my projects and works, showcasing my
+                experience, tech skills and creative approach.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
