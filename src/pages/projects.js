@@ -5,7 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/task-manager-app.jpg";
+import project2 from "../../public/images/projects/pizza-family.jpg";
+import project3 from "../../public/images/projects/kettles-shop.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -143,7 +145,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
-                img={project1}
+                img={project2}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                 link="/"
                 github="/"
@@ -153,7 +155,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
-                img={project1}
+                img={project3}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                 link="/"
                 github="/"
