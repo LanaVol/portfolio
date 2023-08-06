@@ -43,8 +43,8 @@ export default function Home() {
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Currently, I am looking for the position Junior/Trainee Frontend
-                developer because I want to be a part of the development world.
-                I invite you to explore my projects and works, showcasing my
+                developer and I want to be a part of the development world. I
+                invite you to explore my projects and works, showcasing my
                 experience, tech skills and creative approach.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
