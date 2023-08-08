@@ -3,13 +3,13 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  TwitterIcon,
   GithubIcon,
   LinkedInIcon,
   PinterestIcon,
   DribbbleIcon,
   SunIcon,
   MoonIcon,
+  GitLab,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "@/hooks/useThemeSwitcher";
@@ -91,23 +91,23 @@ const NavBar = () => {
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="/about" title="About" className="mx-4" />
+          <CustomLink href="/about" title="About Me" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
           <CustomLink href="/articles" title="Articles" className="ml-4" />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com"
+            href="https://gitlab.com/LanaVol"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <TwitterIcon />
+            <GitLab />
           </motion.a>
           <motion.a
-            href="https://github.com"
+            href="https://github.com/LanaVol"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -116,7 +116,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/svitlana-voloshchuk-99ab8b26b/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -191,7 +191,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <TwitterIcon />
+              <GitLab />
             </motion.a>
             <motion.a
               href="https://github.com"

@@ -134,22 +134,22 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Task-Manager Application"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                summary="A feature-rich Task-Manager App using React, TypeScript, Material UI, React Router and Formik-Yup for autorization. You can organize tasks with the ability to group them by topic, add, remove and change tasks and borders. Also there are two moods: light and dark. Invite you to log in with test-user data or you can register yourself"
+                link="https://task-manager-86pqfp6h4-lanavol.vercel.app/auth"
+                github="https://github.com/LanaVol/task-manager-app"
+                type="React, TypeScript, MUI"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Pizza Family"
                 img={project2}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                link="https://make-pizza-on-your-own.netlify.app/"
+                github="https://gitlab.com/LanaVol/pizza-constructor"
+                type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -157,8 +157,8 @@ const projects = () => {
                 title="Crypto Screener Application"
                 img={project3}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
+                link="https://kettles-store.netlify.app/"
+                github="https://gitlab.com/LanaVol/kettles"
                 type="Featured Project"
               />
             </div>

@@ -461,3 +461,37 @@ export const LinkArrow = ({ className, ...rest }) => (
     />
   </svg>
 );
+
+export const GitLab = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={64}
+    height={64}
+    fill="none"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  >
+    <circle cx={32} cy={32} r={32} fill="#FC6D27" />
+    <circle cx={32} cy={32} r={32} fill="url(#a)" fillOpacity={0.24} />
+    <path
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M46.2 35.187 32 45.507l-14.2-10.32a1.12 1.12 0 0 1-.4-1.254l1.627-5.04L22.28 18.88a.574.574 0 0 1 .92-.213.56.56 0 0 1 .147.24l3.253 9.986h10.8l3.253-10.013a.573.573 0 0 1 .92-.213.56.56 0 0 1 .147.24l3.253 10.013 1.694 5.013a1.12 1.12 0 0 1-.467 1.254v0Z"
+    />
+    <defs>
+      <linearGradient
+        id="a"
+        x1={56.5}
+        x2={24}
+        y1={51.5}
+        y2={25}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop />
+        <stop offset={1} stopOpacity={0} />
+      </linearGradient>
+    </defs>
+  </svg>
+);
