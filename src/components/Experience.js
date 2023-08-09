@@ -25,7 +25,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        <span className="capitalize block font-medium my-2 text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
         <p className="font-medium w-full md:text-sm">{work}</p>
@@ -55,38 +55,39 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Leading Architect (Construction)"
+            company="Intergal-Bud"
+            companyLink="https://intergal-bud.com.ua/ua"
+            time="December, 2019 - Present"
+            address="Kyiv, Ukraine"
+            work="Architectural leading and support of residential (multi-storey) and commercial building's projects from concept to realization in the project management group.
+            Development of technical tasks, checking, local  refinement and approval of project documentation, selection of materials, external and internal curatorship with related organizations, teamwork and holding working meetings in the architectural part of projects."
           />
 
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Architect (Construction)"
+            company="Intergal-Bud"
+            companyLink="https://intergal-bud.com.ua/ua"
+            time="March, 2018 - December, 2019"
+            address="Kyiv, Ukraine"
+            work="Checking, local  refinement and approval of project documentation,selection of materials, external and internal curatorship with related organizations, teamwork."
           />
 
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Architect (Construction)"
+            company="Architectural workshop AMA"
+            companyLink="https://who-is-who.ua/main/page/budarh2010/100/439"
+            time="March, 2017 - March, 2018"
+            address="Kyiv, Ukraine"
+            work="Development and design of non-residential and residential high-rise buildings (up to 33 floors inclusive) at the EP, PP, P, R stages in accordance with current regulatory requirements, development of presentation materials; preparation of documentation for approval in examination or with Customer."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Assistant to the chief architect"
+            company="Architectural workshop AMA"
+            companyLink="https://who-is-who.ua/main/page/budarh2010/100/439"
+            time="July, 2016 - February, 2017"
+            address="Kyiv, Ukraine"
+            work="development and adjustment of project documentation for non-residential and residential objects, work and correcting in accordance with regulatory requirements and tasks chief architect, development of investment albums of objects."
           />
         </ul>
       </div>
