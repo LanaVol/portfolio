@@ -6,7 +6,7 @@ import {
   GithubIcon,
   LinkedInIcon,
   PinterestIcon,
-  DribbbleIcon,
+  Telegram,
   SunIcon,
   MoonIcon,
   GitLab,
@@ -98,22 +98,22 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://gitlab.com/LanaVol"
+            href="https://github.com/LanaVol"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <GitLab />
+            <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/LanaVol"
+            href="https://gitlab.com/LanaVol"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >
-            <GithubIcon />
+            <GitLab />
           </motion.a>
           <motion.a
             href="https://www.linkedin.com/in/svitlana-voloshchuk-99ab8b26b/"
@@ -134,13 +134,13 @@ const NavBar = () => {
             <PinterestIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="tel:+380638629153"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3"
           >
-            <DribbbleIcon />
+            <Telegram />
           </motion.a>
 
           <button
@@ -227,7 +227,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 ml-3 sm:mx-1"
             >
-              <DribbbleIcon />
+              <Telegram />
             </motion.a>
 
             <button

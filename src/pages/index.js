@@ -38,8 +38,8 @@ export default function Home() {
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Welcome to my portfolio! To be brief about me - I&#039;m
-                Svitlana, and I blend the roles of a Junior Frontend Developer
-                and a leading Architect in the field of construction.
+                Svitlana Voloshchuk, and I blend the roles of a Junior Frontend
+                Developer and a leading Architect in the field of construction.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Currently, I am looking for the position Junior/Trainee Frontend
@@ -57,7 +57,7 @@ export default function Home() {
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailto:abcd@gmail.com"
+                  href="mailTo:svolosh4yk@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
