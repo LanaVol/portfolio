@@ -48,21 +48,15 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Master's degree Of Architecture (Construction)"
+            type="Master's degree Of Architecture"
             time="2015-2017"
             place="National Aviation University (NAU), Kyiv"
             info="Professional qualification of a researcher (architecture, planning cities), architect (master's degree with distinction)"
           />
           <Details
-            type="Bachelor's degree Of Architecture (Construction)"
+            type="Bachelor's degree Of Architecture"
             time="2011-2015"
             place="National Aviation University (NAU), Kyiv"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-          />
-          <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
           />
         </ul>
