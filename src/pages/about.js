@@ -8,6 +8,7 @@ import profilePic from "../../public/images/profile/profile-picture-2.jpg";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import ProfessionalTrainings from "@/components/ProffTraining";
 import TransitionEffect from "@/components/TransitionEffect";
 import { AnimatedNumbers } from "@/components/AnimatedNumbers";
 
@@ -95,6 +96,7 @@ const about = () => {
           <Skills />
           <Experience />
           <Education />
+          <ProfessionalTrainings />
         </Layout>
       </main>
     </>
