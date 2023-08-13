@@ -32,14 +32,16 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Bringing Іdeas to Life Through Code and Design"
+                text="Svitlana Voloshchuk"
+                // text="Bringing Іdeas to Life Through Code and Design"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Welcome to my portfolio! To be brief about me - I&#039;m
-                Svitlana Voloshchuk, and I blend the roles of a Junior Frontend
-                Developer and a leading Architect in the field of construction.
+                Welcome to my portfolio! To be brief about me -
+                {/* I&#039;m Svitlana Voloshchuk, and*/} I blend the roles of a
+                Junior Frontend Developer and a leading Architect in the field
+                of construction.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Currently, I am looking for the position Junior/Trainee Frontend
