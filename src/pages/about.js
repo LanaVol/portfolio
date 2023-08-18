@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
-// import profilePic from "../../public/images/profile/photo1690659203.jpg";
 import profilePic from "../../public/images/profile/profile-picture-2.jpg";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
