@@ -8,9 +8,9 @@ import {
   useInView,
 } from "framer-motion";
 import Image from "next/image";
-import project1 from "../../public/images/projects/task-manager-app.jpg";
-import project2 from "../../public/images/projects/pizza-family.jpg";
-import project3 from "../../public/images/projects/kettles-shop.jpg";
+import project1 from "../../public/images/projects/intergal-city.jpg";
+import project2 from "../../public/images/projects/s26.jpg";
+import project3 from "../../public/images/projects/volodymyrskyi.jpeg";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
