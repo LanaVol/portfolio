@@ -29,7 +29,7 @@ function Imge({ id, img, title, link, subtitle }) {
   return (
     <section className="h-[90vh] flex justify-center items-center snap-center relative">
       <div
-        className="w-[900px] h-[500px] max-h-[90vh] flex items-center justify-center rounded-br-2xl rounded-3xl border border-solid border-dark  bg-light shadow-2xl p-12 relative dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
+        className="w-[1000px] min-h-[600px] max-h-[90vh] flex items-center justify-center rounded-br-2xl rounded-3xl border border-solid border-dark  bg-light shadow-2xl p-12 relative dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
         ref={ref}
       >
         <div className="absolute top-0 -right-3 -z-10 w-[100.5%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
@@ -57,9 +57,9 @@ function Imge({ id, img, title, link, subtitle }) {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
-          className="absolute left-[-50px] top-[-150px] sm:left-2"
+          className="absolute left-[-50px] top-[-150px] sm:left-2 sm:top-8"
         >
-          <h2 className="m-0 text-[50px] font-bold">{title}</h2>
+          <h2 className="m-0 text-[50px] font-bold md:text-[24px]">{title}</h2>
           <p className="m-0 text-[20px] font-bold text-primary  xs:text-base">
             {subtitle}
           </p>

@@ -10,6 +10,8 @@ import {
   JavaScriptIcon,
   TypeScriptIcon,
   NextJSIcon,
+  AxiosIcon,
+  GitIcon,
 } from "../components/Icons";
 
 const Skill = ({ name, x, y, icon }) => {
@@ -41,14 +43,21 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill name="CSS" x="0vw" y="-10vw" icon={<CSSIcon />} />
-        <Skill name="HTML" x="-15vw" y="5vw" icon={<HTMLIcon />} />
-        <Skill name="JavaScript" x="20vw" y="6vw" icon={<JavaScriptIcon />} />
-        <Skill name="ReactJS" x="0vw" y="12vw" icon={<ReactIcon />} />
-        <Skill name="TypeScript" x="-22vw" y="-5vw" icon={<TypeScriptIcon />} />
-        <Skill name="NextJS" x="-15vw" y="-15vw" icon={<NextJSIcon />} />
+        <Skill name="HTML" x="-22vw" y="-8vw" icon={<HTMLIcon />} />
+        <Skill name="JavaScript" x="14vw" y="8vw" icon={<JavaScriptIcon />} />
+        <Skill name="ReactJS" x="0vw" y="15vw" icon={<ReactIcon />} />
+        <Skill name="TypeScript" x="-18vw" y="0vw" icon={<TypeScriptIcon />} />
+        <Skill name="NextJS" x="-15vw" y="-18vw" icon={<NextJSIcon />} />
+        <Skill name="Git" x="-12vw" y="8vw" icon={<GitIcon />} />
         <Skill name="Figma" x="0vw" y="-24vw" icon={<FigmaIcon />} />
-        <Skill name="Material-UI" x="18vw" y="-5vw" icon={<MaterialUIIcon />} />
+        <Skill
+          name="Material-UI"
+          x="20vw"
+          y="-10vw"
+          icon={<MaterialUIIcon />}
+        />
         <Skill name="Tailwind CSS" x="15vw" y="-18vw" icon={<TailwindIcon />} />
+        <Skill name="Axios" x="22vw" y="0vw" icon={<AxiosIcon />} />
       </div>
     </>
   );

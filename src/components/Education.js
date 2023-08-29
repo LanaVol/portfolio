@@ -48,16 +48,22 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Master's degree Of Architecture"
-            time="2015-2017"
-            place="National Aviation University (NAU), Kyiv"
+            type="Master's degree | National Aviation University (NAU), Kyiv"
+            time="Sept, 2015 - Feb, 2017"
+            place="Architectural environment design (architecture, town planing)"
             info="Professional qualification of a researcher (architecture, planning cities), architect (master's degree with distinction)"
           />
           <Details
-            type="Bachelor's degree Of Architecture"
-            time="2011-2015"
-            place="National Aviation University (NAU), Kyiv"
+            type="Bachelor's degree | National Aviation University (NAU), Kyiv"
+            time="Sept, 2011 - June, 2015"
+            place="Field of Architecture"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+          />
+          <Details
+            type="Front-end Developer | Prog Academy, Kyiv"
+            time="October, 2022 - Mar, 2023"
+            place="IT-Generation"
+            info="Professional training of the project IT Generation of the Ministry of Digital Transformation together with partners, the Binance blockchain ecosystem and the Lviv IT Cluster"
           />
         </ul>
       </div>

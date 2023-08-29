@@ -32,23 +32,29 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                - Hi, I&#039;m CodeBucks, a web developer and UI/UX designer
-                with a passion for creating beautiful, functional, and
-                user-centered digital experiences. With 4 years of experience in
-                the field. I am always looking for new and innovative ways to
-                bring my clients&#039; visions to life.
+                - Hi, I&#039;m Svitlana, a Frontend developer looking for an
+                opportunity to be employed as a Junior/TraineeFrontend
+                Developer.
               </p>
               <p className="my-4 font-medium">
-                - I believe that design is about more than just making things
-                look pretty – it&#039;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                - My decision to change position of an experienced architect
+                with more than 5 years of experience in designing and
+                implementing large-scale residential and commercial real estate
+                projects to Frontend developer is well-considered and grounded
+                in the expertise I have gained and a determined desire for
+                career growth.
+              </p>
+              <p className="my-4 font-medium">
+                - For me, architecture and web development share a fundamental
+                approach - creating comfortable, aesthetic, and functional
+                environments for people.
               </p>
               <p className="font-medium">
-                - Whether I&#039;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                - However, I see more prospects and possibilities for personal
+                fulfillment and professional advancement in the IT-field. So,
+                Ibelieve that dedication to learning, persistence and the
+                previous experience I&#039;ve acquired will help meachieve the
+                goals I&#039;ve set.
               </p>
             </div>
 
@@ -66,28 +72,28 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={6} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  pet-projects
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  projects completed
+                  tech skills mastered
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={4} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  years of experienced
+                  year of experienced
                 </h2>
               </div>
             </div>
@@ -95,7 +101,6 @@ const about = () => {
           <Skills />
           <Experience />
           <Education />
-          <ProfessionalTrainings />
         </Layout>
       </main>
     </>
