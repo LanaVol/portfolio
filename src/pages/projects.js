@@ -162,7 +162,7 @@ const projects = () => {
                 summary="Website for choose and order pizza with pizza-constructor and following emplemented functions: drag&drop ingrediends  and make pizza on your own, count total price and get some discount according to the conditions, form validation for entering client's information and send details to the email."
                 link="https://make-pizza-on-your-own.netlify.app/"
                 github="https://gitlab.com/LanaVol/pizza-constructor"
-                type="JavaScript, Axios, HTML, CSS, SASS"
+                type="JavaScript, Axios, HTML, CSS (SCSS)"
               />
             </div>
 
