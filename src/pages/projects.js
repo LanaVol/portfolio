@@ -138,9 +138,9 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Events Application"
+                title="Events Application (under revision)"
                 img={project11}
-                summary="Website for view list of events and information each of them in different cities. Using React, TypeScript, Next.js, Axios, Formik-Yup, Material UI"
+                summary="Website for view list of events and information each of them in different cities."
                 link="https://task-manager-86pqfp6h4-lanavol.vercel.app/auth"
                 github="https://github.com/LanaVol/task-manager-app"
                 type="React,Next.js, TypeScript, Redux Toolkit, Axios, Formik-Yup, Material UI"
@@ -150,8 +150,8 @@ const projects = () => {
               <Project
                 title="Portfolio"
                 img={project5}
-                summary="Website for choose and order pizza with pizza-constructor and following emplemented functions: drag&drop ingrediends  and make pizza on your own, count total price and get some discount according to the conditions, form validation for entering client's information and send details to the email."
-                link="https://make-pizza-on-your-own.netlify.app/"
+                summary=""
+                link="https://portfolio-peach-three-32.vercel.app/"
                 github="https://github.com/LanaVol/portfolio.git"
                 type="React, Next.js, Tailwind CSS, Framer Motion"
               />
@@ -160,7 +160,7 @@ const projects = () => {
               <Project
                 title="Pizza Family"
                 img={project2}
-                summary="Website for choose and order pizza with pizza-constructor and following emplemented functions: drag&drop ingrediends  and make pizza on your own, count total price and get some discount according to the conditions, form validation for entering client's information and send details to the email."
+                summary="Website for choose and order pizza with pizza-constructor and following emplemented functions: drag&drop ingrediends  and make pizza on your own, count total price and get some discount according to the conditions, form validation for entering client's information and send details to the email. Also there are two moods: light and dark."
                 link="https://make-pizza-on-your-own.netlify.app/"
                 github="https://gitlab.com/LanaVol/pizza-constructor"
                 type="JavaScript, Axios, HTML, CSS (SCSS)"
@@ -171,7 +171,7 @@ const projects = () => {
               <FeaturedProject
                 title="Task-Manager Application"
                 img={project1}
-                summary="A feature-rich Task-Manager App using React, TypeScript, Material UI, React Router and Formik-Yup for autorization. You can organize tasks with the ability to group them by topic, add, remove and change tasks and borders. Also there are two moods: light and dark. Invite you to log in with test-user data or you can register yourself"
+                summary="A feature-rich Task-Manager App where you can organize tasks with the ability to group them by topic, add, remove and change tasks and borders. Also there are two moods: light and dark. Invite you to log in with test-user data or you can register yourself"
                 link="https://task-manager-86pqfp6h4-lanavol.vercel.app/auth"
                 github="https://github.com/LanaVol/task-manager-app"
                 type="React, TypeScript, React-Router, Axios, Formik-Yup, Material UI"
@@ -181,7 +181,7 @@ const projects = () => {
               <Project
                 title="Movies"
                 img={project4}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary=""
                 link="https://lanavol.github.io/react-films-practise/"
                 github="https://github.com/LanaVol/react-films-practise.git"
                 type="React, OMDb API, Materialize"
@@ -191,23 +191,12 @@ const projects = () => {
               <Project
                 title="Kettles"
                 img={project3}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary=""
                 link="https://kettles-store.netlify.app/"
                 github="https://gitlab.com/LanaVol/kettles"
                 type="JavaScript, HTML, CSS"
               />
             </div>
-
-            {/* <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div> */}
           </div>
         </Layout>
       </main>
