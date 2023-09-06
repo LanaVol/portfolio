@@ -33,7 +33,7 @@ const about = () => {
               </h2>
               <p className="font-medium">
                 - Hi, I&#039;m Svitlana, a Frontend developer looking for an
-                opportunity to be employed as a Junior/TraineeFrontend
+                opportunity to be employed as a Junior/Trainee Frontend
                 Developer.
               </p>
               <p className="my-4 font-medium">

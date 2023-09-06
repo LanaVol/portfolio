@@ -1,7 +1,6 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-// import profilePic from "../../public/images/profile/profile-pic-2.png";
 import profilePic from "../../public/images/profile/profile-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
@@ -33,15 +32,13 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="Svitlana Voloshchuk"
-                // text="Bringing Іdeas to Life Through Code and Design"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Welcome to my portfolio! To be brief about me -
-                {/* I&#039;m Svitlana Voloshchuk, and*/} I blend the roles of a
-                Junior Frontend Developer and a leading Architect in the field
-                of construction.
+                Welcome to my portfolio! To be brief about me - I blend the
+                roles of a Junior Frontend Developer and a leading Architect in
+                the field of construction.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Currently, I am looking for the position Junior/Trainee Frontend
@@ -59,7 +56,7 @@ export default function Home() {
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailTo:svolosh4yk@gmail.com"
+                  href="mailto:svolosh4yk@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >

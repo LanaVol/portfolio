@@ -12,6 +12,7 @@ import {
   NextJSIcon,
   AxiosIcon,
   GitIcon,
+  ReduxIcon,
 } from "../components/Icons";
 
 const Skill = ({ name, x, y, icon }) => {
@@ -43,12 +44,12 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill name="CSS" x="0vw" y="-10vw" icon={<CSSIcon />} />
-        <Skill name="HTML" x="-22vw" y="-8vw" icon={<HTMLIcon />} />
+        <Skill name="HTML" x="-22vw" y="-5vw" icon={<HTMLIcon />} />
         <Skill name="JavaScript" x="14vw" y="8vw" icon={<JavaScriptIcon />} />
-        <Skill name="ReactJS" x="0vw" y="15vw" icon={<ReactIcon />} />
-        <Skill name="TypeScript" x="-18vw" y="0vw" icon={<TypeScriptIcon />} />
-        <Skill name="NextJS" x="-15vw" y="-18vw" icon={<NextJSIcon />} />
-        <Skill name="Git" x="-12vw" y="8vw" icon={<GitIcon />} />
+        <Skill name="ReactJS" x="2vw" y="15vw" icon={<ReactIcon />} />
+        <Skill name="TypeScript" x="-18vw" y="2vw" icon={<TypeScriptIcon />} />
+        <Skill name="NextJS" x="-13vw" y="-20vw" icon={<NextJSIcon />} />
+        <Skill name="Git" x="-18vw" y="-12vw" icon={<GitIcon />} />
         <Skill name="Figma" x="0vw" y="-24vw" icon={<FigmaIcon />} />
         <Skill
           name="Material-UI"
@@ -58,6 +59,12 @@ const Skills = () => {
         />
         <Skill name="Tailwind CSS" x="15vw" y="-18vw" icon={<TailwindIcon />} />
         <Skill name="Axios" x="22vw" y="0vw" icon={<AxiosIcon />} />
+        <Skill
+          name="Redux, Redux Toolkit"
+          x="-13vw"
+          y="10vw"
+          icon={<ReduxIcon />}
+        />
       </div>
     </>
   );

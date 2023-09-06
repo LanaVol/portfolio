@@ -130,7 +130,6 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            // text="Imagination Trumps Knowledge!"
             text="Perseverance is the key to success!"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
@@ -171,10 +170,10 @@ const projects = () => {
               <FeaturedProject
                 title="Task-Manager Application"
                 img={project1}
-                summary="A feature-rich Task-Manager App where you can organize tasks with the ability to group them by topic, add, remove and change tasks and borders. Also there are two moods: light and dark. Invite you to log in with test-user data or you can register yourself"
-                link="https://task-manager-86pqfp6h4-lanavol.vercel.app/auth"
+                summary="A feature-rich Task-Manager App where you can organize tasks with the ability to distribute them by topic in your opinion. There are functions for add, remove and change cards and bords. Each card has several fields of information: title, description, date, label and tasks with remove and complete status. Also there are two moods: light and dark. Invite you to log in with test-user data or you can register yourself."
+                link="https://task-manager-app-tau.vercel.app/auth"
                 github="https://github.com/LanaVol/task-manager-app"
-                type="React, TypeScript, React-Router, Axios, Formik-Yup, Material UI"
+                type="React, TypeScript, React-Router, Redux Toolkit, Axios, Formik-Yup, Material UI"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
