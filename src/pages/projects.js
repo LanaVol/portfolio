@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import { GithubIcon } from "@/components/Icons";
+import { GithubIcon, GitLab } from "@/components/Icons";
 import project11 from "../../public/images/projects/events.jpg";
 import project1 from "../../public/images/projects/task-manager-app.jpg";
 import project2 from "../../public/images/projects/pizza-family.jpg";
@@ -70,7 +70,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   );
 };
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, img, link, github, Component }) => {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light">
       <div className="absolute top-0 -right-3 -z-10 w-[101.5%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
@@ -110,8 +110,8 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
+          <Link href={github} target="_blank" className="w-10 md:w-8">
+            {Component}
           </Link>
         </div>
       </div>
@@ -153,6 +153,7 @@ const projects = () => {
                 link="https://portfolio-peach-three-32.vercel.app/"
                 github="https://github.com/LanaVol/portfolio.git"
                 type="React, Next.js, Tailwind CSS, Framer Motion"
+                Component={<GithubIcon />}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -163,6 +164,7 @@ const projects = () => {
                 link="https://make-pizza-on-your-own.netlify.app/"
                 github="https://gitlab.com/LanaVol/pizza-constructor"
                 type="JavaScript, Axios, HTML, CSS (SCSS)"
+                Component={<GitLab />}
               />
             </div>
 
@@ -184,6 +186,7 @@ const projects = () => {
                 link="https://lanavol.github.io/react-films-practise/"
                 github="https://github.com/LanaVol/react-films-practise.git"
                 type="React, OMDb API, Materialize"
+                Component={<GithubIcon />}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -194,6 +197,7 @@ const projects = () => {
                 link="https://kettles-store.netlify.app/"
                 github="https://gitlab.com/LanaVol/kettles"
                 type="JavaScript, HTML, CSS"
+                Component={<GitLab />}
               />
             </div>
           </div>
