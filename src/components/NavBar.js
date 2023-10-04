@@ -211,17 +211,9 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            {/* <motion.a
-              href="https://twitter.com"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full sm:mx-1"
-            >
-              <PinterestIcon />
-            </motion.a> */}
             <motion.a
-              href="tel:+380638629153"
+              href="https://t.me/Lana_Voll"
+              // href="tel:+380638629153"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

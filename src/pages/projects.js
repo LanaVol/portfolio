@@ -142,8 +142,8 @@ const projects = () => {
                 title="Events Application (under revision)"
                 img={project11}
                 summary="Website for view list of events and information each of them in different cities."
-                link="https://task-manager-86pqfp6h4-lanavol.vercel.app/auth"
-                github="https://github.com/LanaVol/task-manager-app"
+                link="https://github.com/LanaVol/events-application"
+                github="https://github.com/LanaVol/events-application"
                 type="React,Next.js, TypeScript, Redux Toolkit, Axios, Formik-Yup, Material UI"
               />
             </div>
