@@ -11,6 +11,8 @@ import project2 from "../../public/images/projects/pizza-family.jpg";
 import project3 from "../../public/images/projects/kettles-shop.jpg";
 import project4 from "../../public/images/projects/react-movies.jpg";
 import project5 from "../../public/images/projects/portfolio.jpg";
+import project6 from "../../public/images/projects/projectHome.jpg";
+import project7 from "../../public/images/projects/barbershop.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -196,6 +198,28 @@ const projects = () => {
                 summary=""
                 link="https://kettles-store.netlify.app/"
                 github="https://gitlab.com/LanaVol/kettles"
+                type="JavaScript, HTML, CSS"
+                Component={<GitLab />}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Project Home"
+                img={project6}
+                summary=""
+                link="https://project-home-rho.vercel.app/"
+                github="https://github.com/LanaVol/project-home"
+                type="JavaScript, HTML, CSS(SCSS), AOS-Animation"
+                Component={<GithubIcon />}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Barbershop"
+                img={project7}
+                summary=""
+                link="https://cut-barbershop.netlify.app/"
+                github="https://gitlab.com/LanaVol/home-work_9-it-gen"
                 type="JavaScript, HTML, CSS"
                 Component={<GitLab />}
               />
