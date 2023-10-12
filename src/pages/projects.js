@@ -141,10 +141,10 @@ const projects = () => {
               <FeaturedProject
                 title="Events Application (under revision)"
                 img={project11}
-                summary="Website for view list of events and information each of them in different cities."
-                link="https://github.com/LanaVol/events-application"
+                summary="The website shows the information about various exciting events happening around the world. Here, you can explore a diverse range of events, from concerts and exhibitions to sports competitions and cultural festivals. On this website, you will discover an up-to-date event calendar featuring detailed descriptions, dates, venues, and other valuable information."
+                link="https://events-application-omega.vercel.app/"
                 github="https://github.com/LanaVol/events-application"
-                type="React,Next.js, TypeScript, Redux Toolkit, Axios, Formik-Yup, Material UI"
+                type="React, Next.js, TypeScript, Redux Toolkit, Axios, Formik-Yup, Material UI, AOS (animations)"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
