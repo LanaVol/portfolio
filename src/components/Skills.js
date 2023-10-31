@@ -13,6 +13,7 @@ import {
   AxiosIcon,
   GitIcon,
   ReduxIcon,
+  WebpackIcon,
 } from "../components/Icons";
 
 const Skill = ({ name, x, y, icon }) => {
@@ -45,8 +46,8 @@ const Skills = () => {
         </motion.div>
         <Skill name="CSS" x="0vw" y="-10vw" icon={<CSSIcon />} />
         <Skill name="HTML" x="-22vw" y="-5vw" icon={<HTMLIcon />} />
-        <Skill name="JavaScript" x="14vw" y="8vw" icon={<JavaScriptIcon />} />
-        <Skill name="ReactJS" x="2vw" y="15vw" icon={<ReactIcon />} />
+        <Skill name="JavaScript" x="14vw" y="10vw" icon={<JavaScriptIcon />} />
+        <Skill name="ReactJS" x="18vw" y="2vw" icon={<ReactIcon />} />
         <Skill name="TypeScript" x="-18vw" y="2vw" icon={<TypeScriptIcon />} />
         <Skill name="NextJS" x="-13vw" y="-20vw" icon={<NextJSIcon />} />
         <Skill name="Git" x="-18vw" y="-12vw" icon={<GitIcon />} />
@@ -54,17 +55,18 @@ const Skills = () => {
         <Skill
           name="Material-UI"
           x="20vw"
-          y="-10vw"
+          y="-13vw"
           icon={<MaterialUIIcon />}
         />
-        <Skill name="Tailwind CSS" x="15vw" y="-18vw" icon={<TailwindIcon />} />
-        <Skill name="Axios" x="22vw" y="0vw" icon={<AxiosIcon />} />
+        <Skill name="Tailwind CSS" x="15vw" y="-20vw" icon={<TailwindIcon />} />
+        <Skill name="Axios" x="22vw" y="-5vw" icon={<AxiosIcon />} />
         <Skill
           name="Redux, Redux Toolkit"
           x="-13vw"
           y="10vw"
           icon={<ReduxIcon />}
         />
+        <Skill name="Webpack (basic)" x="2vw" y="15vw" icon={<WebpackIcon />} />
       </div>
     </>
   );
