@@ -3,7 +3,6 @@ import Head from "next/head";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import Image from "next/image";
 import { GithubIcon, GitLab } from "@/components/Icons";
 import project11 from "../../public/images/projects/events.jpg";
 import project1 from "../../public/images/projects/task-manager-app.jpg";
@@ -13,12 +12,10 @@ import project4 from "../../public/images/projects/react-movies.jpg";
 import project5 from "../../public/images/projects/portfolio.jpg";
 import project6 from "../../public/images/projects/projectHome.jpg";
 import project7 from "../../public/images/projects/barbershop.jpg";
-import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import { MainProject } from "@/components/MainProject";
 import { BlockShadow } from "@/components/BlockShadow";
-
-const FramerImage = motion(Image);
+import { FramerImageComponent } from "@/components/FramerImage";
 
 const Project = ({ title, type, img, link, github, Component }) => {
   return (
@@ -26,19 +23,12 @@ const Project = ({ title, type, img, link, github, Component }) => {
       <BlockShadow
         className={"w-[101.5%] md:-right-2 md:w-[101%] xs:h-[102%]"}
       />
-      <Link
-        href={link}
-        target="_blank"
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
-      >
-        <FramerImage
-          src={img}
-          alt={title}
-          className="w-full h-auto"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-        />
-      </Link>
+      <FramerImageComponent
+        link={link}
+        img={img}
+        title={title}
+        className={"w-full"}
+      />
 
       <div className="w-full flex flex-col items-start justify-between mt-4">
         <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">

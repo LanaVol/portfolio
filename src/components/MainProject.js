@@ -1,31 +1,20 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import { motion } from "framer-motion";
 import { BlockShadow } from "./BlockShadow";
-
-const FramerImage = motion(Image);
+import { FramerImageComponent } from "./FramerImage";
 
 export const MainProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
       <BlockShadow />
-      <Link
-        href={link}
-        target="_blank"
-        className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
-      >
-        <FramerImage
-          src={img}
-          alt={title}
-          className="w-full h-auto"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-          priority
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-        />
-      </Link>
+      <FramerImageComponent
+        link={link}
+        img={img}
+        title={title}
+        className={"w-1/2 lg:w-full"}
+        sizes={"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"}
+      />
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base">

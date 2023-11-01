@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, useInView } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { BlockShadow } from "./BlockShadow";
+import { FramerImageComponent } from "./FramerImage";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
@@ -24,23 +25,14 @@ export function ProjectBlock({ id, img, title, link, subtitle }) {
         ref={ref}
       >
         <BlockShadow />
-
-        <Link
-          href={link}
-          target="_blank"
-          className="h-full w-auto cursor-pointer overflow-hidden rounded-lg lg:w-full "
-        >
-          <FramerImage
-            src={img}
-            alt={title}
-            className="w-full h-auto"
-            // className="w-auto h-full m-auto rounded-2xl"
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.2 }}
-            priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-          />
-        </Link>
+        <FramerImageComponent
+          link={link}
+          img={img}
+          title={title}
+          className={"h-full w-auto lg:w-full"}
+          sizes={"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"}
+          // priority ?
+        />
 
         <motion.div
           style={{
