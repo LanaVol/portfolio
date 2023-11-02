@@ -16,6 +16,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { MainProject } from "@/components/MainProject";
 import { BlockShadow } from "@/components/BlockShadow";
 import { FramerImageComponent } from "@/components/FramerImage";
+import { ButtonProject, IconButtonProject } from "@/components/Button";
 
 const Project = ({ title, type, img, link, github, Component }) => {
   return (
@@ -45,16 +46,12 @@ const Project = ({ title, type, img, link, github, Component }) => {
         </Link>
 
         <div className="w-full mt-2 flex items-center justify-between">
-          <Link
-            href={link}
-            target="_blank"
-            className="rounded-lg text-lg font-semibold underline md:text-base"
-          >
-            Visit
-          </Link>
-          <Link href={github} target="_blank" className="w-10 md:w-8">
-            {Component}
-          </Link>
+          <ButtonProject
+            link={link}
+            className={"underline md:text-base"}
+            text={"Visit"}
+          />
+          <IconButtonProject link={github} Component={Component} />
         </div>
       </div>
     </article>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import { BlockShadow } from "./BlockShadow";
 import { FramerImageComponent } from "./FramerImage";
+import { ButtonProject, IconButtonProject } from "./Button";
 
 export const MainProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -34,16 +35,14 @@ export const MainProject = ({ type, title, summary, img, link, github }) => {
         </p>
 
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="w-10">
-            <GithubIcon />
-          </Link>
-          <Link
-            href={link}
-            target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
-          >
-            Visit Project
-          </Link>
+          <IconButtonProject link={github} Component={<GithubIcon />} />
+          <ButtonProject
+            link={link}
+            text={"Visit Project"}
+            className={
+              "ml-4 bg-dark text-light p-2 px-6 dark:bg-light dark:text-dark sm:px-4 sm:text-base"
+            }
+          />
         </div>
       </div>
     </article>
